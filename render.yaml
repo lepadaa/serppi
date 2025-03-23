@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: web-search-api
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn app:app
+    envVars:
+      - key: SERPAPI_KEY
+        value: YOUR_SERPAPI_KEY_HERE
