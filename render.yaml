@@ -6,4 +6,4 @@ services:
     startCommand: gunicorn app:app
     envVars:
       - key: SERPAPI_KEY
-        value: YOUR_SERPAPI_KEY_HERE
+        value: b2fb4c2d1cdb36fdc4c6535cd24dd75755f9cf65581bcf1073324cfda762852e
